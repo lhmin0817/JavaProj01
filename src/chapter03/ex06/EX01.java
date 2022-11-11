@@ -13,6 +13,15 @@ public class EX01 {
 		
 		System.out.println("정수를 입력");
 		int a = sc.nextInt();
-		System.out.println(a + "은" + (a % 2==0 ? "짝수 입니다." : "홀수 입니다."));
+		System.out.println(a + " 은" + (a % 2==0 ? " 짝수 입니다." : " 홀수 입니다."));
+		
+		//<문제> : Scanner로 3,6,9 의 배수이면 "3, 6, 9의 배수입니다."
+			//그렇지 않으면 "3, 6, 9 의 배수가 아닙니다.
+		
+		System.out.println("3, 6, 9인지 확인 하려면 정수를 입력하세요.");
+		int b = sc.nextInt();
+		System.out.println(b + " 은" + (b % 3==0 ? " 3, 6, 9의 배수 입니다." : " 3, 6, 9의 배수가 아닙니다."));
+		
+		
 	}
 }
