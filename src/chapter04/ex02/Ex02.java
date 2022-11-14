@@ -17,7 +17,7 @@ public class Ex02 {
 		
 		System.out.println("알고 싶은 일수의 달을 입력해주세요.");
 		month =sc.nextInt();
-		+*
+		
 		switch(month) {
 		case 1: case 3: case 5: case 7: case 8: case 10: case 12:
 			System.out.println(month + "월의 일수는 " + ++day + "일 입니다.");
