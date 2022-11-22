@@ -31,7 +31,7 @@ public class Ex02 {
 		System.out.println();
 		System.out.println("========================================================================");
 		
-		int[]arr=new addArray 
+		//int[]arr=new addArray 
 		
 		
 	}
